@@ -4,7 +4,7 @@ const app = express();
 
 // Define a route that sends "Hello from Jenkins CI/CD Pipeline!!" as a response
 app.get('/', (req, res) => {
-  res.send('Hello from Jenkins CI/CD Pipeline!!!');
+  res.send('Hello from Jenkins CI/CD Pipeline!!');
 });
 
 // Listen on port 3000

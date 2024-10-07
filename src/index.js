@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 
-// Define a route that sends "Hello from Jenkins CI/CD Pipeline!!" as a response
+// Define a route that sends "Hi from Jenkins CI/CD Pipeline!!" as a response
 app.get('/', (req, res) => {
   res.send('Hi from Jenkins CI/CD Pipeline!!');
 });
